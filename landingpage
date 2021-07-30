@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Apple</title>
+    <link rel = "stylesheet" href = "style.css">
+    <h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Apple</h1>
+    <div class = "logo">
+        <img src="https://logos-world.net/wp-content/uploads/2020/04/Apple-Logo.png">
+    </div>
+    <div class = "navigationbar">
+        Mac &nbsp;&nbsp;&nbsp;iPad &nbsp;&nbsp;&nbsp;iPod &nbsp;&nbsp;&nbsp;Watch &nbsp;&nbsp;&nbsp;TV &nbsp;&nbsp;&nbsp;Music &nbsp;&nbsp;&nbsp;Support
+    </div>
+</head>
+<body>
+    <div class = "macheader">
+        <h1>Behind the Mac.</h1>
+    </div>
+    <div class = "macheader2">
+        <h3>Canadians are changing the world of music with their creativity.</h3>
+    </div>
+
+    <div class = "contactus">
+        <h1>Contact Us</h1>
+        <form action = "contactus.php" method = "post">
+            <p>Name:</p>
+            <p><input type = "text" name = "name" value = "Your name"></p>
+            <p>Email:</p>
+            <p><input name = "species"></p>
+            <p>Reason:</p>
+            <p><textarea name = "comments" rows = "5" cols = "20">Your comments</textarea></p>
+            <p><input type = "submit"</p>
+    </div>
+    
+</body>
+</html>
